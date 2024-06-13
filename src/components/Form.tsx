@@ -38,11 +38,11 @@ function Form() {
             ref={formRef}
           >
             <div className="grid sm:grid-cols-2 ">
-              <div className="bg-gray-100  ">
+              <div>
                 <div className="  mb-10 mt-10 ">
                   <label htmlFor="name"></label>
                   <input
-                    className="  outline-none"
+                    className="  outline-none "
                     type="text"
                     id="name"
                     name="Username"
@@ -56,7 +56,7 @@ function Form() {
                 <div className="  mb-10 ">
                   <label htmlFor="phoneno"></label>
                   <input
-                    className="outline-none"
+                    className="outline-none bg-slate-100"
                     type="tel"
                     name="Phone no"
                     id="phoneno"
@@ -79,7 +79,7 @@ function Form() {
                   />
                 </div>
               </div>
-              <div className="bg-gray-100 ">
+              <div className="">
                 <div className="mb-10 mt-10">
                   <label htmlFor="orgname"></label>
                   <input

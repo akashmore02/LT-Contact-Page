@@ -39,10 +39,10 @@ function Form() {
           >
             <div className="grid sm:grid-cols-2 ">
               <div>
-                <div className="  mb-10 mt-10 ">
-                  <label htmlFor="name"></label>
+                <div className="  mb-10 w-72 h-14 bg-gray-100 mt-11 rounded-md">
+                  <label className="bg-gray-100" htmlFor="name"></label>
                   <input
-                    className="  outline-none "
+                    className="  outline-none bg-slate-100 mt-4 ml-4"
                     type="text"
                     id="name"
                     name="Username"
@@ -53,10 +53,10 @@ function Form() {
                   />
                 </div>
 
-                <div className="  mb-10 ">
+                <div className="  mb-10 w-72 h-14 bg-gray-100 rounded-md">
                   <label htmlFor="phoneno"></label>
                   <input
-                    className="outline-none bg-slate-100"
+                    className="outline-none bg-slate-100  mt-4 ml-4"
                     type="tel"
                     name="Phone no"
                     id="phoneno"
@@ -67,23 +67,16 @@ function Form() {
                   />
                 </div>
 
-                <div className="  mb-10">
+                <div className="mb-10 w-72 h-40 bg-gray-100 rounded-md">
                   <label htmlFor="remark"></label>
-                  <input
-                    className=" outline-none"
-                    type="text"
-                    name="remark"
-                    id="remark"
-                    placeholder="Remarks"
-                    required
-                  />
+                  <textarea className="outline-none bg-slate-100" name="Remark" id="remark" placeholder="Remarks" required></textarea>
                 </div>
               </div>
               <div className="">
-                <div className="mb-10 mt-10">
+                <div className="mb-10 w-72 h-14 bg-gray-100 mt-11 rounded-md">
                   <label htmlFor="orgname"></label>
                   <input
-                    className="outline-none"
+                    className="outline-none  bg-slate-100  mt-4 ml-4"
                     type="text"
                     id="orgname"
                     name="Organisation name"
@@ -93,10 +86,10 @@ function Form() {
                   />
                 </div>
 
-                <div className="mb-10 ">
+                <div className="mb-10 w-72 h-14 bg-gray-100 rounded-md">
                   <label htmlFor="emailid"></label>
                   <input
-                    className=" outline-none"
+                    className=" outline-none  bg-slate-100  mt-4 ml-4"
                     type="email"
                     name="email id"
                     id="emailid"

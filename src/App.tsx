@@ -11,7 +11,7 @@ function App() {
       <div className="max-w-screen h-screen ">
         <div>
           <div className="w-full h-20 flex mb-20">
-            <div className=" h-40 w-40 m-10 ">
+            <div className=" h-60 w-60 m-10 ml-24 ">
               <img src="../src/assets/Laser Technologies Logo.png" alt="" />
             </div>
           </div>

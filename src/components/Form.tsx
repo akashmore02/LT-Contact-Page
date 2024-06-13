@@ -67,9 +67,9 @@ function Form() {
                   />
                 </div>
 
-                <div className="mb-10 w-72 h-40 bg-gray-100 rounded-md">
+                <div className=" w-72 h-40 bg-gray-100 rounded-md">
                   <label htmlFor="remark"></label>
-                  <textarea className="outline-none bg-slate-100" name="Remark" id="remark" placeholder="Remarks" required></textarea>
+                  <textarea className="outline-none bg-slate-100  mt-4 ml-4" name="Remark" id="remark" placeholder="Remarks" required></textarea>
                 </div>
               </div>
               <div className="">
@@ -107,13 +107,6 @@ function Form() {
                   />
                 </div>
                 <div>
-                  {/* <input
-                    className='bg-black w-36 h-45px text-white text-sm font-normal py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-                  Submit'
-                    type="submit"
-                    value="Submit"
-                    disabled={allowed}
-                  /> */}
                   <button
                     type="submit"
                     className="bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"

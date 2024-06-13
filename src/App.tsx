@@ -16,6 +16,9 @@ function App() {
             </div>
           </div>
           <div>
+            <p className=" text-right mr-24 mb-20">home/contact</p>
+          </div>
+          <div>
             <Form />
           </div>
           <div className="mt-24">

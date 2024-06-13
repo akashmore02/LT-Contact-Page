@@ -30,7 +30,7 @@ function App() {
             </div>
             <div
               className="flex justify-center items-center  bg-red-600 p-6 
-              sm:w-[1170px]  w-96 sm:ml-20 ml-8
+              sm:w-[1170px]  w-[372px] sm:ml-20 ml-2
           shadow-lg absolute   bottom-48  rounded-tr-md rounded-bl-md rounded-tl-4xl  rounded-br-4xl "
             >
               <Newsletter />
